@@ -12,14 +12,13 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 11px;
   height: 80px;
-  background-color: white;
+  background-color: #007575;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
 }
 
 header > img {
-  width: 50px;
+  width: 80px;
 }
 
 header > h1 {
@@ -39,7 +38,7 @@ main {
 
 .add-ingredient-form > input {
   border-radius: 6px;
-  border: 1px solid #D1D5DB;
+  border: 1px solid #007575;
   padding: 9px 13px;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
   flex-grow: 1;
@@ -51,7 +50,7 @@ main {
   font-family: Inter, sans-serif;
   border-radius: 6px;
   border: none;
-  background-color: #141413;
+  background-color: #007575;
   color: #FAFAF8;
   width: 150px;
   font-size: 0.875rem;
@@ -68,7 +67,7 @@ ul.ingredients-list {
 }
 
 ul.ingredients-list > li {
-  color: #475467;
+  color: #007575;
   line-height: 28px;
 }
 
